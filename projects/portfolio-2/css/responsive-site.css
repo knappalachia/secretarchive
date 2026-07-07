@@ -1,0 +1,254 @@
+
+  
+  @media only screen and (max-width: 768px) {
+
+    html{
+      overflow-x: hidden;
+    }
+
+    h1{
+      font-size: 2rem;
+      text-align: left;
+     
+    }
+
+    h2{
+      font-size: 2.8rem;
+      line-height: 3.8rem;
+    }
+
+    .section{
+      font-size: 3rem;
+    }
+
+    h4{
+      font-size: 3rem;
+      width: 100%;
+      padding-top: 7%;
+      margin-bottom: 5%;
+    }
+
+    .withsub{
+      margin-bottom: 1%;
+    }
+
+    h5{
+      font-size: 1.2rem;
+    }
+
+    .base h5{
+      font-size: 1.5rem;
+
+    }
+
+    .extra h5{
+      padding-bottom: 12%;
+    }
+        
+    h6{
+      padding-top: 0%;
+      padding-left: 0%;
+      text-align: left;
+      font-size: 1.1rem;
+      line-height: 1.2rem;
+    }
+
+  
+
+    .pfoot a{
+      color: #242221;
+      text-decoration: underline;
+    }
+  
+    .pfoot{
+      margin-bottom: 5%;
+    }
+
+    .footnote{
+      margin-top: 10vh;
+    }
+
+
+    #greet{
+      margin-left: 5%;
+      width: 90%;
+
+    }
+
+
+#top{
+  position: static;
+  width: 100%;
+  height: auto;
+}
+    .title{
+      position: static;
+      padding: 5%;
+      width: 90%;
+      
+    }
+
+    .titlework{
+      position: static;
+      padding: 5%;
+      width: 90%;
+      
+    }
+
+  
+
+
+
+
+    /* --------------------------------------ABOUT----------------------------------------- */
+
+
+
+    .desktop{
+      display: none;
+    }
+
+    .mobile{
+      display: block;
+    }
+    
+    /* --------------------------------------WORK----------------------------------------- */
+
+#main{
+  margin-left: 0;
+  width: 100vw;
+  
+}
+
+.work img,
+    .project img {
+      margin-top: .5%;
+      border: none;
+      box-shadow: none;
+    }
+
+#main img{
+ height: 40vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.basetop{
+  margin-top: 30%;
+}
+
+.base{
+  margin-left: 0;
+  width: 90%;
+  padding: 5%;
+}
+
+    .work{
+      width: 100%;
+      margin: 0 0;
+      margin-top: 5%;
+      overflow: hidden;
+
+    }
+
+   .normal{
+     width: 100%;
+     background-position: 50%;
+   }
+
+   .overlay{
+     opacity: 0;
+   }
+
+    .normal:hover{
+      transform:translateX(0%);
+      margin-left: 0;
+    }
+
+    .normal:hover img {
+      border: none;
+      transition: none;
+    }
+
+
+    .caption{
+      position: static;
+      float: none;
+      padding: 5%;
+      width: 90%;
+      margin-bottom: 5%;
+    }
+
+    .caption p{
+      width: 95%;
+    }
+
+    .extra{
+      float: none;
+    }
+    .section{
+      width: 100%;
+    }
+
+    .colophon{
+      width: 90%;
+      margin-left: 5%;
+      padding-top: 2%;
+    }
+
+    .footnote{
+      width: 90%;
+      margin-left: 5%;
+    }
+
+    .project{
+      width: 100%;
+    }
+
+    .images{
+      margin-left: 0%;
+    }
+
+    .info{
+      margin-left: 5%;
+      width: 90%;
+    }
+
+    .extra{
+      float: none;
+      width: 90%;
+      padding-bottom: 0%;
+    }
+
+    .caption{
+      float: none;
+      position: static;
+      margin-top: 0%;
+    }
+
+    .caption p {
+      width: 100%;
+    }
+
+    .subtitle{
+      margin-bottom: 4%;
+    }
+
+    /* ------------------------------------HOME------------------------------------------- */
+
+
+    #intro{
+      /* margin-top: 0vh; */
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 15vh;
+    }
+    
+
+
+    /* ---------------------------------------LIGHTBOXES------------------------------- */
+
+
+
+}

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Joshua Ryan Knapp</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+
+  <!-- Links to Google or Adobe fonts go here -->
+
+  <link rel="stylesheet" href="https://use.typekit.net/ety7utc.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Load external style sheets. They should be in same folder as your HTML file -->
+  <!--  reset style goes first-->
+  <link rel="stylesheet" href="https://use.typekit.net/qmk7ute.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive-nav.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive-site.css">
+  <script src="js/responsive-nav.js"></script>
+
+</head>
+
+<body>
+
+
+  <header>
+    <nav class="sidebar desktop">
+      <div id="top">
+       <div class="desktop">
+        <div class="title"><a href="index.html">
+          <h1>Joshua</h1>
+          <h1>Ryan</h1>
+          <h1>Knapp</h1>
+        </a>
+          <h6><a href="mailto:knappalachia@gmail.com">knappalachia<br>@gmail.com</a><br><br><a href="https://www.instagram.com/knappendix/"
+              target="blank">@knappendix</a><br>on Instagram<br></h6>
+      </div>
+        <h2 id="arrow" class="desktop">↓</h2>
+      </div>
+    </div>
+    </nav>
+  </header>
+
+
+
+
+
+    <div id="greet">
+      <h2><span class="h2SC">Joshua Ryan Knapp</span> is an artist specializing in <span
+        class="h2italic">book design, </span><span
+          class="h2italic">Biblical scholarship</span>,* <span class="h2italic">collection</span>,† and <span
+          class="h2italic">obsession</span>.‡</h2>
+
+
+    </div>
+
+    <div id="main">
+      <div class="work" id="work">
+ 
+
+        <div id="galleryall" >
+        
+          <div class="normal">
+            <img src="../and/and-1.jpg">
+            <div class="dogear desktop"><h5 class="projectname desktop">and</h5></div>
+          </div>
+
+          <div class="normal">
+            <img src="../andagain/andagain-1.jpg">
+            <div class="dogear desktop"><h5 class="projectname desktop">and again</h5></div>
+          </div>
+
+          <div class="normal">
+            <img src="../andfinally/andfinally-1.jpg">
+            <div class="dogear desktop"><h5 class="projectname desktop">and finally</h5></div>
+          </div>
+
+          <div class="normal">
+           
+            <img src="../books/books-1.jpg">
+            <div class="dogear desktop"><h5 class="projectname">The Books</h5></div>
+            
+          </div>
+        
+          <div class="normal">
+            <img src="../revelation-1.jpg">
+            <div class="dogear desktop"><h5 class="projectname desktop">Book of Revelation</h5></div>
+          </div>
+
+          <div class="normal">
+            <img src="../moby/moby-dick-1.jpg">
+            <div class="dogear desktop"><h5 class="projectname desktop">Moby-Dick</h5></div>
+          </div>
+
+          
+
+          <div class="normal">
+            <img src="../atlas/atlas-12.jpg">
+            <div class="dogear desktop"><h5 class="projectname desktop">Atlas of Emotions</h5></div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      </div>
+      
+    </div>
+
+    <div class="footnote">
+      <p class="pfoot">* <span class="pitalic">Biblical scholarship</span> as in the varied academic disciplines of
+        Biblical criticism and research; not a personal, religious study of the Christian or Hebrew Bible.</p>
+        <p class="pfoot">† <span class="pitalic">Collection</span> as in the assembly, arrangement, and re-presentation of content and materials; archiving, anthologizing, compiling.
+        <p class="pfoot">‡ <span class="pitalic">Obsession</span> as in an intense fixation on and passion for something; a positive, creative force; not addiction.</p>
+        
+
+    </div>
+
+    <footer>
+
+      
+      <div class="colophon">
+        <div class="mobile foot">
+          <p class="pfoot"><a href="mailto:knappalachia@gmail.com">knappalachia@gmail.com</a><br><a href="https://www.instagram.com/knappendix"
+            target="blank">@knappendix</a> on Instagram<br></p>
+        </div>
+        <p class="pfoot">©2025 Joshua Ryan Knapp</p>
+        <p class="pfoot">This webpage is displaying Cormorant, designed by Christian Thalmann, and Georgia, designed by
+          Matthew Carter.</p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script>
+      var distScrolled;
+      var i = 1;
+      
+      $(document).ready(function () {
+
+     
+
+        distScrolled = $(document).scrollTop();
+
+        setInterval(function () {
+          i++;
+          if ((distScrolled == 0)) {
+            if ((i == 700)) {
+              $("#arrow").css("opacity", "1");
+              $("#arrow").css("top", "40vh");
+            }
+          }
+          // console.log(i);
+        }, 0)
+        
+        var windowSize = $(window).width();
+
+        $("#greet").css("opacity", "1");
+        $("#main").css("opacity", "1");
+
+        if ((windowSize < 768)){
+          $("#greet").css("margin-top", "15vh");
+          $("#main").css("margin-top", "8vh");
+        } else if ((windowSize > 768)){
+          $("#greet").css("margin-top", "23vh");
+          $("#main").css("margin-top", "13vh");
+
+        }
+
+       
+       
+        
+
+ 
+        var pageHeight = $(document).height();
+        console.log(pageHeight);
+        $("#debug #text0-val").text($(window).height());
+        $("#debug #text1-val").text(pageHeight);
+        
+
+        // When the page scrolls, do stuff
+        $(document).on("scroll", function () {
+
+          // store distance page has scrolled in variable, pageTop
+          distScrolled = $(document).scrollTop();
+
+          $("#debug #text0-val").text($(window).height());
+          $("#debug #text1-val").text(pageHeight);
+          $("#debug #text2-val").text(distScrolled);
+          $("#debug #text3-val").text(pageHeight - $(window).height() - distScrolled);
+
+          $("#arrow").css("top", "45vh");
+          $("#arrow").css("opacity", "0");
+
+          if (distScrolled > 200) {
+            $(".title").css("opacity", "1");
+            $(".title").css("top", "10%");
+          } else if (distScrolled <= 200) {
+            $(".title").css("opacity", "0");
+            $(".title").css("top", "15%");
+
+          }
+
+          if (distScrolled > 250) {
+            $("#galleryall").css("opacity", "1");
+            $("#galleryall").css("transform", "translateX(0%)");
+          } else if (distScrolled <= 250) {
+            $("#galleryall").css("opacity", "0");
+            $("#galleryall").css("transform", "translateX(-3%)");
+          }
+
+
+
+          if ((windowSize < 768)){
+          if ((pageHeight - $(window).height() - distScrolled) <= 800) {
+            $(".footnote").css("opacity", "1");
+            $(".footnote").css("transform", "translateX(0%)");
+          } else if ((pageHeight - $(window).height() - distScrolled) >= 800) {
+            $(".footnote").css("opacity", "0");
+            $(".footnote").css("transform", "translateX(-5%)");
+          }
+        } else if ((windowSize > 768)){
+          if ((pageHeight - $(window).height() - distScrolled) <= 450) {
+            $(".footnote").css("opacity", "1");
+            $(".footnote").css("transform", "translateX(0%)");
+          } else if ((pageHeight - $(window).height() - distScrolled) >= 450) {
+            $(".footnote").css("opacity", "0");
+            $(".footnote").css("transform", "translateX(-5%)");
+          }}
+
+
+        }); //end on scroll
+
+      });
+
+
+
+     
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

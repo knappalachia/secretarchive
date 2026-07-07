@@ -1,0 +1,77 @@
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(26, 26, 28, 0.9);
+  }
+  
+
+  .modal-content {
+    position: relative;
+    margin-left:30vw;
+    margin-right: 2vw;
+    padding-top: 2vh;
+    width: 67vw;
+  }
+
+  .modal-content img{
+    max-height: 125vh;
+    max-width: 67vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+  }
+
+  #Tattoomodal img{
+    max-width: 50vw;
+  }
+  
+  .close {
+    color: #eaeaea;
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    font-size: 4rem;
+    font-weight: bold;
+    z-index: 999;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  .slides ul{
+    position: relative;
+  }
+  
+  .slides li {
+    max-width: 67vw;
+    color: #eaeaea;
+    font-size: .9rem;
+    text-align: right;
+    text-decoration: none;
+    font-family: pt-sans, sans-serif;
+  }
+  
+  /* .caption-container {
+    text-align: left;
+    color: #3b3b3b;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30vw;
+  } */
+
+
+

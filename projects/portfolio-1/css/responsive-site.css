@@ -1,0 +1,241 @@
+@media only screen and (max-width: 768px) {
+
+  
+  /* mobile screen */
+  
+  @media only screen and (max-width: 768px) {
+
+    html{
+      overflow-x: hidden;
+    }
+
+    h1{
+      font-size: 2rem;
+      text-align: left;
+     
+    }
+
+    h2{
+      font-size: 3rem;
+      letter-spacing: 0rem;
+      line-height: 3.2rem;
+    }
+
+    .section{
+      font-size: 3rem;
+    }
+
+    h4{
+      font-family: Sprat-Regular, serif;
+      font-size: 2rem;
+      width: 95%;
+      padding-top: 7%;
+      padding-bottom: 5%;
+    }
+
+    h5{
+      font-size: 1.2rem;
+    }
+
+    .base h5{
+      font-size: 1.5rem;
+
+    }
+
+    .extra h5{
+      padding-bottom: 12%;
+    }
+        
+    h6{
+      padding-top: 0%;
+      padding-left: 0%;
+      text-align: left;
+      font-size: 1.1rem;
+      line-height: 1.2rem;
+      /* word-break: break-word; */
+    }
+
+    .sidebar{
+      width: 100%;
+      overflow: hidden;
+      height: 12%;
+      position: fixed;
+      padding-top: 0px;
+      margin-top: 0px;
+      border-right: none;
+      border-bottom: 1px solid #393fac;
+
+      
+    }
+  
+    #links{
+      display: none;
+    }
+
+    footer{
+      height: 125px
+    }
+
+    #greeting{
+      margin-left: 5%;
+         transform: translateY(-30%);
+    }
+
+    #greet2{
+      margin-top: 50%;
+    
+}
+
+#top{
+  position: static;
+  width: 100%;
+  height: auto;
+}
+    .title{
+      position: static;
+      padding: 5%;
+      width: 90%;
+      
+    }
+
+    .titlework{
+      position: static;
+      padding: 5%;
+      width: 90%;
+      
+    }
+
+    .info{
+      margin-top: 3%;
+      position: static;
+      width: 50%;
+      float: right;
+      border: 1px solid red;
+    }
+
+    .foot{
+      padding: 5%;
+      width: 90%;
+      margin-top: 15%;
+      border-top: 1px solid #393fac;
+      padding-bottom: 15%;
+    }
+
+
+
+
+
+
+    /* --------------------------------------ABOUT----------------------------------------- */
+
+
+    .about{
+      width: 100%;
+      margin: 0 0;
+      margin-top: 50%;
+      border-left: none;
+      border-right: none;
+    }
+
+    .about img{
+      width: 100%;
+      float: none;
+      padding: 3% 0%;
+    }
+
+    .desktop{
+      display: none;
+    }
+
+    .mobile{
+      display: block;
+    }
+
+    .abouttext{
+      padding: 6%;
+      margin-left: 0%;
+    }
+
+    
+    /* --------------------------------------WORK----------------------------------------- */
+
+.basetop{
+  margin-top: 30%;
+}
+
+.base{
+  margin-left: 0;
+  width: 90%;
+  padding: 5%;
+}
+
+    .work{
+      width: 100%;
+      margin: 0 0;
+      margin-top: 5%;
+      border-left: none;
+      border-right: none;
+      background-image: none;
+      overflow: hidden;
+    }
+
+   .normal{
+     width: 100%;
+     background-position: 50%;
+   }
+
+   .overlay{
+     opacity: 0;
+   }
+
+    .normal:hover{
+      transform:translateX(0%);
+      margin-left: 0;
+    }
+
+    /* #galleryall{
+      width: 100%;
+      margin: 0 0;
+      grid-gap: .5rem;
+      grid-template-areas: "atlas" "gh" "sts" "shirts" "archive" "tattoo" "nolan" "exhibit";
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      position: static;
+    } */
+
+    .caption{
+      position: static;
+      float: none;
+      padding: 5%;
+      width: 90%;
+      margin-bottom: 5%;
+    }
+
+    .caption p{
+      width: 95%;
+    }
+
+    .extra{
+      float: none;
+    }
+
+    /* ------------------------------------HOME------------------------------------------- */
+
+
+    #intro{
+      margin-top: 10vh;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 15vh;
+    }
+    
+
+
+    /* ---------------------------------------LIGHTBOXES------------------------------- */
+
+
+
+}
+
+
+}

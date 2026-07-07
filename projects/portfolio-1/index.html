@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Joshua Knapp</title>
+  
+    <!-- Links to Google or Adobe fonts go here -->
+  
+    <link rel="stylesheet" href="https://use.typekit.net/ety7utc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Load external style sheets. They should be in same folder as your HTML file -->
+    <!--  reset style goes first-->
+    <link rel="stylesheet" href="https://use.typekit.net/qmk7ute.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  
+  
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive-nav.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive-site.css">
+  <script src="js/responsive-nav.js"></script>
+  <script type="text/javascript" src="js/sort.js"></script>
+  
+  </head>
+
+<body>
+
+
+  <header> <nav class="sidebar">
+      <div id="top">
+    <div class="title"><a href="index.html"><h1>Joshua Knapp</h1></a>
+      <div class="desktop">
+        <h6>knappalachia<br>@gmail.com<br><br><a href="https://www.instagram.com/knappalachia/" target="blank">@knappalachia</a><br>on Instagram<br><br>©2022</h6>
+      </div>
+  </div>
+    </div>
+  </nav>
+</header>
+
+     
+
+<div id="intro">
+  <div id="greet1">
+    <h2>Joshua Knapp</h2>
+   
+  </div>
+  <div id="greet2"> 
+    <!-- <h3>Graphic Designer and Artist</h3><br> -->
+    <h3><a href="#work">Work</a></h3><br><h3><a href="#about">About</a></h3>
+ </div>
+</div>
+
+<div class="work" id="work">
+  <h2 class="section" id="workhead">Work</h2>
+
+
+
+    <div id="galleryall">
+
+      <div class="normal">
+        <h5 class="projectname desktop">The Books: A Survey of Bible Design</h5>
+        <img src="../books/books-1.jpg">
+      </div>
+     
+      <div class="normal">
+        <h5 class="projectname desktop">And</h5>
+        <img src="../and/and-1.jpg">
+      </div>
+      
+      <div class="normal">
+        <h5 class="projectname desktop">Atlas of Emotions</h5>
+        <img src="../atlas/atlas-12.jpg">
+      </div>
+
+      <div class="normal">
+        <h5 class="projectname desktop">Moby-Dick</h5>
+        <img src="../moby/moby-dick-1.jpg">
+      </div>
+
+       <div class="normal">
+         <h5 class="projectname desktop">Book of Revelation</h5>
+         <img src="images/revelation-1.jpg">
+       </div>
+
+  
+       
+
+        </div>
+      </div>
+     
+      
+
+
+    <!-- --------------------------------WORK LIGHTBOXES----------------------------------------------------- -->
+
+
+
+
+          <div class="about" id="about">
+            <img class="desktop" src="images/portrait.jpg">
+            <h2 class="section" id="abouthead">About</h2>
+            <img class="mobile" src="images/portrait.jpg">
+
+              <div class="abouttext">
+                <p>Hi there. I'm a graphic designer currently based in the High Country of North Carolina.
+                  <br><br>In my practice, I’m always looking for interdisciplinary opportunities to continue to build a 
+                  robust skillset, with a focus on book design and production. My work involves themes of
+                  religion and identity, preferring complex projects that require the curation, organization, and analysis 
+                  of large amounts of content. Professionally, I’ve worked in settings ranging from alone to large collaborative 
+                  teams, undertaking projects from exhibition materials to branding for art and design professionals.<br><br>
+                  I’d love to hear from you and help solve the design challenge you’re facing. Let’s make something great.</p><br><br>
+
+                <h5><a href="knapp-resume.pdf">Resumé</a></h5>
+                
+                <h5>knappalachia@gmail.com</h5>
+                </p></div>
+      
+      
+            
+            </div>
+
+            <footer>
+              <div class="mobile foot">
+                <h6>knappalachia@gmail.com<br><br><a href="https://www.instagram.com/knappalachia/" target="blank">@knappalachia</a> on Instagram<br><br>©2022</h6>
+              </div>
+            </footer>
+
+
+            <!-- <div id="debug">
+              <table>
+                <tr>
+                  <td id="text0" class="tleft">Window Height</td>
+                  <td id="text0-val" class="value">0</td>
+                </tr>
+                <tr>
+                  <td id="text1" class="tleft">Page Height</td>
+                  <td id="text1-val" class="value">0</td>
+                </tr>
+                <tr>
+                  <td id="text2" class="tleft">Distance Scrolled</td>
+                  <td id="text2-val" class="value">0</td>
+                </tr>
+                <tr>
+                  <td id="text3" class="tleft">Distance Remaining</td>
+                  <td id="text3-val" class="value">0</td>
+                </tr>
+              </table>
+            </div> -->
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/lightbox.js"></script>
+            
+
+
+
+
+<script>
+  var distScrolled; 
+
+$(document).ready(function() {
+
+
+  $("#greet1").css("opacity","1");
+  $("#greet1").css("transform","translateY(-50%)");
+  $("#greet2").css("opacity","1");
+  $("#greet2").css("transform","translateY(-100%)");
+
+var pageHeight = $(document).height();
+console.log(pageHeight);
+$("#debug #text0-val").text($(window).height());
+$("#debug #text1-val").text(pageHeight);
+
+
+// When the page scrolls, do stuff
+$(document).on("scroll", function() {
+
+  // store distance page has scrolled in variable, pageTop
+  distScrolled = $(document).scrollTop();
+
+  $("#debug #text0-val").text($(window).height());
+  $("#debug #text1-val").text(pageHeight);
+  $("#debug #text2-val").text(distScrolled);
+  $("#debug #text3-val").text(pageHeight - $(window).height() - distScrolled);
+
+  if (distScrolled > 500) {
+    $(".title").css("opacity","1");
+    $(".title").css("top","10%");
+   } else if (distScrolled <= 500){
+    $(".title").css("opacity","0");
+    $(".title").css("top","15%");
+   }
+
+   if (distScrolled > 650) {
+    $("#workhead").css("opacity","1");
+    $("#workhead").css("transform","translateX(0%)");
+   } else if (distScrolled <= 650){
+    $("#workhead").css("opacity","0");
+    $("#workhead").css("transform","translateX(-3%)");
+   }
+
+   if (distScrolled > 2600) {
+    $("#abouthead").css("opacity","1");
+    $("#abouthead").css("transform","translateX(0%)");
+   } else if (distScrolled <= 2600){
+    $("#abouthead").css("opacity","0");
+    $("#abouthead").css("transform","translateX(-3%)");
+   }
+
+}); //end on scroll
+
+});
+
+
+
+  var navigation = responsiveNav(".sidenav", {
+    animate: true, // Boolean: Use CSS3 transitions, true or false
+    transition: 284, // Integer: Speed of the transition, in milliseconds
+    label: "Menu", // String: Label for the navigation toggle
+    insert: "before", // String: Insert the toggle before or after the navigation
+    customToggle: "", // Selector: Specify the ID of a custom toggle
+    closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+    openPos: "static", // String: Position of the opened nav, relative or static
+    navClass: "sidenav", // String: Default CSS class. If changed, you need to edit the CSS too!
+    navActiveClass: "js-nav-active", // String: Class that is added to <html> element when nav is active
+    jsClass: "js", // String: 'JS enabled' class which is added to <html> element
+    init: function () { }, // Function: Init callback
+    open: function () { }, // Function: Open callback
+    close: function () { } // Function: Close callback
+  });
+
+
+
+</script>
+
+
+
+</body>
+
+</html>

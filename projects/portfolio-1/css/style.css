@@ -1,0 +1,475 @@
+    /* Your styles go here */
+
+ 
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+    
+      body{
+        /* background-color: #afa7a5; */
+      /* background-image: url(../images/bg-nu-2.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat; */
+      background-color: #1b1b1d;
+      }
+
+
+    @font-face{
+      font-family: Sprat-ExtendedThin;
+      src: url(../fonts/Sprat-ExtendedThin.otf);
+    }
+
+    @font-face{
+      font-family: Sprat-Regular;
+      src: url(../fonts/Sprat-Regular.otf);
+    }
+
+    @font-face{
+      font-family: Sprat-Extendedregular;
+      src: url(../fonts/Sprat-Extendedregular.otf);
+    }
+
+    @font-face{
+      font-family: Sprat-Thin;
+      src: url(../fonts/Sprat-RegularThin.otf);
+
+    }
+
+    h1{
+      font-size: 2.2rem;
+      text-align: right;
+      color: #e7e1da;;
+      font-family: Sprat-Thin, serif;
+      /* font-weight: 400; */
+      font-style: normal;
+      /* text-transform: uppercase; */
+      
+    }
+
+
+    h2 {
+      font-family: Sprat-ExtendedThin, serif;
+      /* font-weight: 700; */
+      font-size: 5.5rem;
+      line-height: 5.7rem;
+      color: #e7e1da;;
+      text-align: right;
+    }
+
+    h3 {
+      font-family: pt-sans,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: #484daf;
+      text-align: right;
+      word-break: break-word;
+    }
+
+    h4 {
+      font-family: Sprat-Extendedregular,serif;
+      font-style: normal;
+      font-size: 2.5rem;
+      color: #484daf;
+      text-decoration: none;
+      padding: 3% 3%;
+      width: 60%;
+      /* border: 1px solid red; */
+    }
+
+    h3 a{
+      color: #484daf;
+      transition: all .3s ease;
+      border-right: 1px solid #484daf;
+      padding-right: .7rem;
+    }
+
+    h3 a:hover{
+      /* color: #787ccb; */
+      padding-right: 1.2rem;
+    }
+
+    h3 a:visited{
+      color: #484daf;
+    }
+
+    
+  
+
+    h5{
+      font-family: pt-sans, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      letter-spacing: .1rem;
+      color: #484daf;
+      /* margin-top: 3%; */
+/* border: 1px solid red; */
+
+    }
+
+    h6{
+      color: #484daf;
+      font-family: pt-sans, sans-serif;
+      text-align: right;
+      /* text-transform: uppercase; */
+      font-weight: 400;
+      font-size: 1rem;
+      font-style: normal;
+      padding-top: 4vh;
+      line-height: 1.2rem;
+      letter-spacing: .1rem;
+      padding-left: 5%;
+    }
+    
+
+    p{
+      font-family: pt-sans, sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      font-style: normal;
+      line-height: 1.5rem;
+      color: #181818;
+
+    }
+
+    li{
+      font-family: pt-sans,sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      text-transform: uppercase;
+      line-height: 2.5rem;
+      color:#484daf;
+      font-size: 1rem;
+      transition: all .3s ease;
+      text-decoration: none;
+      letter-spacing: .1rem;
+      text-align: right;
+    }
+
+    a{
+      color:#e7e1da;;
+      text-decoration: none;
+    }
+    
+
+    a:visited{
+      color: #e7e1da;;
+    }
+
+    h5 a, h6 a{
+      color: #484daf;
+      text-decoration: underline;
+      transition: all .3s ease;
+    }
+
+    h5 a:hover, h6 a:hover{
+      color: #484daf;
+      text-decoration: none;
+    }
+
+    h5 a:visited, h6 a:visited{
+      color: #484daf;
+      text-decoration: none;
+    }
+
+
+
+    /* ---------------------------------------------GENERAL---------------------------------------------------------------- */
+
+    .section{
+      font-family: Sprat-ExtendedThin, serif;
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 5.7rem;
+      letter-spacing: .3rem;
+      color: #484daf;
+      text-align: left;
+      padding: 3%;
+      padding-bottom: 10%;
+    }
+  
+    footer{
+      height: 16.5vh;
+      
+    }
+
+
+    /* ----------------------------------sidebar----------------------------------------------------------------- */
+
+
+    .sidebar {
+      height: 100vh;
+      width: 15vw;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      overflow-x: hidden;
+      padding-top: 3vh;
+      min-width: 150px;
+      overflow: hidden;
+      border-right: 1px solid #484daf;
+      background-color: #1b1b1d;
+      
+      }
+   
+    
+
+    .sidebar,
+    .sidebar * {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+
+
+    .normal{
+      height: 30%;
+    }
+
+  
+
+    #top{
+      position: relative;
+      height: 25vh;
+      /* grid-area: "top"; */
+     
+    }
+     
+    .title{
+      position: absolute;
+      top: 15%;
+      width: 13.5vw;
+      transition: all .8s ease;
+      opacity: 0;
+    }
+
+    .titlework{
+      position: absolute;
+      top: 15%;
+      width: 13.5vw;
+  
+    }
+
+  
+
+
+    
+  #intro{
+    height: 100vh;
+  }
+  
+
+  #greet1{
+    opacity: 0;
+    margin-top: 0;
+    transition: all 1.4s ease;
+    /* position: relative;
+    top: 50%; */
+    margin-top: 50vh;
+    padding-right: 5%;
+    margin-left: 20vw;
+    /* border: 1px solid red; */
+  }
+
+  #greet2{
+    opacity: 0;
+    transition: all 2s ease;
+    margin-top: 5%;
+    /* border: 1px solid red; */
+    padding-right: 6%;
+    /* position: relative; */
+  }
+
+
+
+  
+    
+    /* ------------------ABOUT------------------- */
+
+    .section{
+      transform: translateX(-3%);
+      opacity: 0;
+      transition: all .8s ease;
+    }
+
+    .about {
+        border: 1px solid #484daf;
+        margin-left: 29vw; 
+        margin-top: 15vh;
+        width: 65vw;
+        /* background-image: url(../images/paper-2.jpg); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        box-shadow: 0px 0px 25px rgb(12, 12, 12);
+      }
+  
+      .about img{
+        width: 45%;
+        /* margin-left: 50%; */
+        float: right;
+        padding-left: 4%;
+        padding-bottom: 1%;
+  
+      }
+  
+      .abouttext{
+        padding: 4% 5%;
+        margin-left: 25%;
+        background-color: #e7e1da;
+      }
+
+      .desktop{
+        display: block;
+      }
+
+      .mobile{
+        display: none;
+      }
+/* 
+
+          
+   /* ------------------WORK------------------- */
+
+   .caption{
+    position: relative;
+    padding: 3% 5%;
+    width: 65%;
+    background-color: #e7e1da;
+    float: right;
+  }
+  .caption p{
+    width: 60%;
+  }
+
+  .extra{
+    float: left;
+    width: 20%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+  }
+
+  .base{
+    margin-top: 1.5%;
+    margin-left: calc(65px + 13vw);
+    width: 65vw;
+  }
+
+  .basetop{
+    margin-top: 4%;
+
+  }
+
+  .base h5{
+    font-size: 1.7rem;
+    text-align: right;
+  }
+
+  .base a{
+    text-decoration: none;
+  }
+  .base a:hover{
+    padding-right: .7rem;
+  }
+
+
+    .work{
+      margin-top: 1.5%;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-left: calc(65px + 13vw);
+        width: 65vw;
+        position: relative;
+        /* padding: 3%; */
+        border: 1px solid #484daf;
+        box-shadow: 0px 0px 25px rgb(12, 12, 12);
+        
+    }
+
+    .work img{
+      margin-top: .5%;
+      width: 100%;
+
+    }
+
+
+        .normal{
+          width: 75%;
+          transition: all .3s ease;
+        }
+              
+            
+              .normal:hover{
+                cursor:pointer;    
+                transform:translateX(1%);
+                margin-left: 1%;
+              }
+
+              .normal:hover .overlay{
+                opacity: 0;
+                
+              }
+
+
+
+              .projectname{
+                color: #484daf;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 105%;
+                opacity: 0;
+                transition: all .3s ease;
+                text-align: left;
+                width: 15%;
+              }
+
+              .normal:hover>.projectname{
+                transform: translateY(-85%);
+                opacity: 1;
+              }
+  
+              #debug {
+                width: 250px;
+                padding: 30px;
+                position: fixed;
+                top: 50px;
+                right: 30px;
+                background-color: black;
+                opacity: 1;
+              }
+             
+              table,
+              tr,
+              td {
+                border: none;
+                font-family: monospace;
+                font-size: 14px;
+                text-align: left;
+                color: white;
+              }
+             
+              td {
+                padding: 6px 10px;
+              }
+             
+              td.tleft {
+                width: 70%;
+              }
+             
+              td.value {
+                width: 30%;
+                text-align: right;
+              }
+             
+              #box1{
+                height: 75vh;
+              }      

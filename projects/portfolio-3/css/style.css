@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+@keyframes load {
+  0% {opacity: 0; background-color: rgb(232, 231, 226);}
+    100% {opacity: 1; background-color: white;}
+
+}
+
+#animatedBackground {
+    width: 100%;
+    height: 100vh; /* Viewport height, or set a specific height in px */
+    position: absolute; /* Position it relative to the viewport/parent */
+    top: 0;
+    left: 0;
+    background: url('../images/work/triune/tri-full-2.jpg'); /* Replace with your image path */
+    background-repeat: repeat-x; /* Repeat horizontally */
+    background-size: auto 100%; /* Adjust size as needed, e.g., 'auto 100%' or 'cover' */
+    mix-blend-mode: multiply;
+    animation: animatedBackground 300s linear infinite; /* Adjust duration (20s) for speed */
+}
+
+#animatedBackground2 {
+    width: 100%;
+    height: 100vh; /* Viewport height, or set a specific height in px */
+    position: absolute; /* Position it relative to the viewport/parent */
+    top: 0;
+    background: url('../images/work/triune/tri-full-2.jpg'); /* Replace with your image path */
+    background-repeat: repeat-x; /* Repeat horizontally */
+    background-size: auto 100%; /* Adjust size as needed, e.g., 'auto 100%' or 'cover' */
+    mix-blend-mode: multiply;
+    animation: animatedBackground2 300s linear infinite; /* Adjust duration (20s) for speed */
+}
+
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0; /* Starting position */
+    }
+    to {
+        background-position: -100% 0; /* Moves one full image width to the left */
+    }
+}
+
+@keyframes animatedBackground2 {
+    from {
+        background-position: 0 0; /* Starting position */
+    }
+    to {
+        background-position: 200% 0; /* Moves one full image width to the left */
+    }
+}
+
+
+
+html{
+    font-size: 16px;
+       background-color: white;
+  overflow-x: hidden;
+    animation-name: load;
+  animation-duration: 1s;
+}
+
+h3 a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h2{
+font-family: "SUSE Mono", sans-serif;
+ font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+  color: rgb(176, 172, 158);
+  font-size: 1.3rem;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+  /* border-bottom: 1px solid rgb(255, 222, 130); */
+}
+
+h3{
+    font-family: "SUSE Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-size: .8rem;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  text-align: center;
+  color: rgb(151, 148, 136);
+  line-height: 1.5rem;
+  margin: 0 auto;
+}
+
+.subtitle{
+  color: rgb(124, 117, 117);
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2rem;
+    margin-top: 2rem;
+
+}
+
+h4{
+   font-family: "SUSE Mono", sans-serif;
+    font-optical-sizing: auto;
+     font-size: .8rem;
+     letter-spacing: .2rem;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  color: rgb(135, 130, 128);
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+p{
+   font-family: "SUSE Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-style: normal;
+  text-align: left;
+  color: rgb(135, 130, 128);
+}
+
+h6{
+   font-family: "SUSE Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-size: .65rem;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(124, 117, 117);
+}
+
+#links{
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bg{
+  width: 70vw;
+  margin-left: 30vw;
+}
+.bgmobile{
+  display: none;
+}
+
+.projects{
+  width: 100%;
+  margin: 3% auto;
+  transition: opacity 1s ease;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectpage{
+  width: 90%;
+}
+
+#all{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+
+.projectpage img{
+width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: .25rem;
+}
+
+.normal{
+  width: 30%;
+  height: fit-content;
+  opacity: 1;
+margin: .5rem;
+min-width: 275px;
+}
+
+.pject{
+  width: 100%;
+  height: auto;
+   border-radius: .25rem;
+     transition: opacity .3s, filter .5s ease;  
+     filter: saturate(1);
+
+}
+
+.pject:hover {
+  opacity: .7;
+  filter: saturate(1.2);
+}
+
+
+
+
+#logo{
+    width: 100%;
+    opacity: .6;
+}
+
+#whale{
+  width: 55%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+
+}
+
+#main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30vw;
+background-image: linear-gradient(to bottom, rgb(232, 231, 226), rgb(0,0,0,0));
+    height: 100vh;
+    box-shadow: 0px 0px 50px rgb(232, 231, 226);
+    z-index: 1;
+}
+.pmain{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30vw;
+background-image: linear-gradient(to bottom, rgb(232, 231, 226), rgb(0,0,0,0));
+    height: 100vh;
+    box-shadow: 0px 0px 50px rgb(232, 231, 226);
+    z-index: 1;
+}
+
+#name{
+    width: 100%;
+}
+
+.ptitle{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.ptitle img{
+  width: 100%;
+  opacity: .3;
+}
+
+#intro{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#foot{
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 80%;
+}
+
+.pjectbg{
+    filter: blur(3rem);
+   background-size: cover;
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: -1;
+  opacity: .3;
+}
+
+.overlay{
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.normal:hover > .overlay{
+  opacity: 0.3;
+}
+
+
+
+.all{
+  height: 0px;
+}
+
+#andbg{
+  background-image: url(../images/work/and/andbg.jpg);
+}
+
+#andagainbg{
+  background-image: url(../images/work/andagain/andagainbg.jpg);
+}
+
+#andfinallybg{
+  background-image: url(../images/work/andfinally/andfinallybg.jpg);
+}
+
+#booksbg{
+  background-image: url(../images/work/books/booksbg.jpg);
+}
+
+#atlasbg{
+  background-image: url(../images/work/atlas/atlasbg.jpg);
+}
+
+#mobybg{
+  background-image: url(../images/work/moby/mobybg.jpg);
+}
+
+#revbg{
+  background-image: url(../images/work/revelation/revbg.jpg);
+}
+
+#tribg{
+  background-image: url(../images/work/triune/triunebg.jpg);
+}
+
+#porbg{
+  background-image: url(../images/work/portraits/portraitsbg.jpg);
+}
+
+#diabg{
+  background-image: url(../images/work/dia/diabg.jpg);
+}
+
+.arrow{
+  font-size: 5vw;
+  margin-bottom: 2rem;
+}
